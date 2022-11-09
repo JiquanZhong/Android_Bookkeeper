@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Personal Finance Guide instructions"
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="New Income: Click “New Income“ to add expenditure information."
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="My Income: Click “My Income“ to view, modify, and delete historical income information."
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Help: Click “Help“ to read the help of each function."
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="New Expenditure: Click “New Expenditure“ to add a new expenditure."
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="My Expenses: Click “My Expenses“ to view, modify, and delete historical expenses."
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="System Settings: Click “System Settings“ to modify the login password."
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Add new notes: Click “Add Notes“ to add new notes."
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="My Notes: Click “My Notes“ to view, modify and delete historical notes information."
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Exit system: Click “Exit system“ to safely exit the APP."
+            android:textSize="16dp"
+            android:gravity="center"></TextView>
+
+        <Button
+            android:id="@+id/helpcancel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Back"></Button>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
